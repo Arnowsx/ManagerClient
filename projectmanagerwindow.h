@@ -4,19 +4,19 @@
 #include <QWidget>
 
 namespace Ui {
-class ProjectManager;
+class ProjectManagerWindow;
 }
 
-class ProjectManager : public QWidget
+class ProjectManagerWindow: public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit ProjectManager(QWidget *parent = 0);
-    ~ProjectManager();
+    explicit ProjectManagerWindow(QWidget *parent = 0);
+    ~ProjectManagerWindow();
 
 private:
-    Ui::ProjectManager *ui;
+    Ui::ProjectManagerWindow *ui;
 };
 
 #endif // PROJECTMANAGER_H
