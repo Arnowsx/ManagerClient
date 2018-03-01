@@ -25,13 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    projectmanagerwindow.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    projectmanagerwindow.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    projectmanagerwindow.ui
 
 RESOURCES += \
     res.qrc
