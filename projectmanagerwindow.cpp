@@ -1,7 +1,7 @@
 #include "projectmanagerwindow.h"
 #include "ui_projectmanagerwindow.h"
 
-ProjectManager::ProjectManagerWindow(QWidget *parent) :
+ProjectManagerWindow::ProjectManagerWindow(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::ProjectManagerWindow)
 {

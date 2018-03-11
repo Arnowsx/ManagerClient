@@ -13,8 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
     mainLayout = new  QStackedLayout(this);
     this->setCentralWidget(widget);
     widget->setLayout(mainLayout);
-
-    mainLayout->addWidget(this);
+    
     mainLayout->addWidget(projectManagerWindow);
     mainLayout->setCurrentWidget(this);
 

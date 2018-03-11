@@ -2,6 +2,7 @@
 #define PROJECTMANAGER_H
 
 #include <QWidget>
+#include <QDebug>
 
 namespace Ui {
 class ProjectManagerWindow;
@@ -17,6 +18,8 @@ public:
 
 private:
     Ui::ProjectManagerWindow *ui;
+
+    void connects();
 };
 
 #endif // PROJECTMANAGER_H
